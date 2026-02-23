@@ -19,22 +19,6 @@ opcodes.txt
 sample_input.txt
 
 
-
-
-#### **How to compile the programs**
-
-If you have 'make' installed on your system, you can just type make.
-
-This will create two executable files named 'onepass' and 'twopass'. 
-
-If you want to remove the executables and output files later, you can type
-
-make clean
-
-
-
-
-
 #### **How to run the programs**
 
 Before running, make sure opcodes.txt and sample\_input.txt are in the same folder as the compiled programs.
@@ -72,5 +56,6 @@ output\_twopass.txt (the result from the two pass assembler)
 intermediate.txt (a temporary file created by the two pass version)
 
 Both assemblers are designed to follow the standard SIC record format, including the H (Header), T (Text), and E (End) records. They also handle indexed addressing and ensure that instructions are never split across two different text records.
+
 
 
