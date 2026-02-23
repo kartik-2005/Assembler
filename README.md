@@ -8,27 +8,16 @@ This project contains two different implementations of an assembler for the SIC 
 
 #### **Files in this folder**
 
-230101116_onepass.c (the single pass assembler code)
+onepass.c (the single pass assembler code)
 
-230101116_twopass.c (the two pass assembler code)
+twopass.c (the two pass assembler code)
 
 README.md (readme)
-
-Makefile
 
 opcodes.txt
 
 sample_input.txt
 
-sample_intermediate.txt
-
-sample_output.txt
-
-intermediate.txt
-
-output_onepass.txt
-
-output_twopass.txt
 
 
 
@@ -83,4 +72,5 @@ output\_twopass.txt (the result from the two pass assembler)
 intermediate.txt (a temporary file created by the two pass version)
 
 Both assemblers are designed to follow the standard SIC record format, including the H (Header), T (Text), and E (End) records. They also handle indexed addressing and ensure that instructions are never split across two different text records.
+
 
